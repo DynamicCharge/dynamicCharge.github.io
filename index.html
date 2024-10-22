@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src=" https://cdn.jsdelivr.net/npm/inputmask@5.0.8/dist/jquery.inputmask.min.js "></script>
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Alustroy — Главная</title>
+  <title>ForTrevel — Главная</title>
 </head>
 
 <body>
@@ -59,11 +59,18 @@
       <div class="container">
         <div class="header__wrapper">
           <nav class="header__nav">
-            <ul class="header__nav-list">
-              <li class="header__nav-item"><a href="" class="link-btn">Товары для путешествий</a></li>
-              <li class="header__nav-item"><a href="" class="link-btn">О бренде</a></li>
-              <li class="header__nav-item"><a href="" class="link-btn">Где купить?</a></li>
-              <li class="header__nav-item"><a href="" class="link-btn">RU</a></li>
+            <ul class="header__nav-list" data-accordion="parent">
+              <li class="header__nav-item"><a href="#good-first" class="link-btn">Товары для путешествий</a></li>
+              <li class="header__nav-item"><a href="#about" class="link-btn">О бренде</a></li>
+              <li class="header__nav-item"><a href="https://fix-price.com/" class="link-btn">Где купить?</a></li>
+              <li class="header__nav-item" data-accordion="element">
+                <span class="link-btn language-btn" data-accordion="button">RU</span>
+                <div class="language__dropdown" data-accordion="content">
+                  <div class="language__dropdown-inner">
+                    <a href="" class="link-btn">EN</a>
+                  </div>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
@@ -111,7 +118,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__wrapper">
             <h2 class="about__header page-h2">О БРЕНДЕ</h2>
@@ -147,7 +154,8 @@
         <img src="../img/content/cloud-2.png" alt="" class="cloud --cloud-2">
         <img src="../img/content/cloud-3.png" alt="" class="cloud --cloud-3">
         <img src="../img/content/cloud-4.png" alt="" class="cloud --cloud-4">
-        <section class="good">
+        <img src="../img/content/cloud-5.png" alt="" class="cloud --cloud-5">
+        <section class="good" id="good-first">
           <div class="container">
             <div class="good__wrapper">
               <h2 class="good__header page-h2">КОМФОРТНЫЙ СОН В ДОРОГЕ</h2>
