@@ -1018,6 +1018,7 @@ html .--fw500 {
   position: relative;
   padding-bottom: 260px;
   padding-top: 392px;
+  overflow: hidden;
 }
 
 .title .title__bg {
@@ -1295,6 +1296,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 @media screen and (max-width: 1440px) {
   .about .about__wrapper {
     padding: 0;
+  }
+
+  .title .title__logo {
+    left: -104px;
   }
 }
 
