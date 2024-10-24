@@ -1055,6 +1055,7 @@ html .--fw500 {
   line-height: 140%;
   letter-spacing: -0.5644068122px;
   color: #626261;
+  padding-left: 277px;
 }
 
 .title .title__slider-bottom {
@@ -1301,6 +1302,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   .title .title__logo {
     left: -104px;
   }
+
+  .title .title__text {
+    padding-left: 173px;
+  }
 }
 
 @media screen and (max-width: 1350px) {
@@ -1364,6 +1369,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .title .title__text {
     font-size: 35px;
+    padding-left: 90px;
   }
 
   .title .title__slide {
@@ -1500,6 +1506,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 @media screen and (max-width: 750px) {
+  .title .title__text {
+    padding-left: 17px;
+  }
+
   .title .title__slide {
     padding-top: 170px;
   }
