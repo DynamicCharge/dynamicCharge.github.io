@@ -655,6 +655,10 @@ button,
   margin: 0;
 }
 
+.header .header__nav-item {
+  position: relative;
+}
+
 .header .header__nav-item a {
   display: block;
 }
@@ -665,12 +669,18 @@ button,
 
 .header .language-btn {
   position: relative;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .header .language__dropdown {
   background: #fff;
-  margin-top: -17px;
+  margin-top: -20px;
   border-radius: 0 0 20px 20px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
 }
 
 .header .language__dropdown .language__dropdown-inner {
