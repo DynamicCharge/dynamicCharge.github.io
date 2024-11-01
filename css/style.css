@@ -1009,7 +1009,7 @@ html .--fw500 {
   color: #fff;
   border: 1px solid #FFFFFF;
   border-radius: 68px;
-  padding: 13px 35px;
+  padding: 13px 35px 10px;
   display: block;
 }
 
@@ -1048,7 +1048,7 @@ html .--fw500 {
 }
 
 .title .title__logo {
-  max-width: 945px;
+  max-width: 955px;
   width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
@@ -1065,7 +1065,6 @@ html .--fw500 {
   line-height: 140%;
   letter-spacing: -0.5644068122px;
   color: #626261;
-  padding-left: 277px;
 }
 
 .title .title__slider-bottom {
@@ -1220,6 +1219,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .good .good__slider {
   padding: 50px;
+  margin: 0 -50px;
 }
 
 .good .good__slide {
@@ -1305,16 +1305,20 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 @media screen and (max-width: 1440px) {
+  .good .good__slide-name {
+    font-size: 20px;
+  }
+
+  .good .good__slide-desc {
+    font-size: 15px;
+  }
+
   .about .about__wrapper {
     padding: 0;
   }
 
   .title .title__logo {
-    left: -104px;
-  }
-
-  .title .title__text {
-    padding-left: 173px;
+    left: -109px;
   }
 }
 
@@ -1379,7 +1383,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .title .title__text {
     font-size: 35px;
-    padding-left: 90px;
   }
 
   .title .title__slide {
@@ -1480,6 +1483,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .good .good__slider {
     padding: 0;
+    margin: 0;
   }
 
   .good .good__slide {
@@ -1493,6 +1497,19 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 16px;
     line-height: 90%;
     padding: 10px 25px;
+  }
+
+  .title .title__text {
+    padding-left: 17px;
+  }
+
+  .title .title__slide {
+    padding-top: 170px;
+  }
+
+  .title .title__logo {
+    max-width: 300px;
+    left: -70px;
   }
 }
 
@@ -1512,21 +1529,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .modal--fit-content .modal__content {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .title .title__text {
-    padding-left: 17px;
-  }
-
-  .title .title__slide {
-    padding-top: 170px;
-  }
-
-  .title .title__logo {
-    max-width: 300px;
-    left: -70px;
   }
 }
 
