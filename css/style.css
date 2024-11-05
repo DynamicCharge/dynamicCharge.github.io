@@ -1055,7 +1055,7 @@ html .--fw500 {
   margin-bottom: 75px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -41px;
   z-index: 2;
 }
 
@@ -1318,7 +1318,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .title .title__logo {
-    left: -109px;
+    left: -152px;
   }
 }
 
@@ -1393,7 +1393,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .title .title__logo {
     max-width: 700px;
-    left: -115px;
+    left: -149px;
   }
 
   .about .about__text {
@@ -1509,7 +1509,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .title .title__logo {
     max-width: 300px;
-    left: -70px;
+    left: -84px;
   }
 }
 
