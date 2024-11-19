@@ -1011,6 +1011,13 @@ html .--fw500 {
   border-radius: 68px;
   padding: 13px 35px 10px;
   display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.link-btn:hover {
+  background: rgba(138, 206, 240, 0.5) !important;
+  border-color: rgba(138, 206, 240, 0.5) !important;
 }
 
 .page-h2 {
@@ -1105,7 +1112,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .cloud.--cloud-1 {
-  right: -500px;
+  right: -1500px;
   top: -250px;
 }
 
@@ -1230,7 +1237,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   transition: 0.3s;
 }
 
-.good .good__slide.swiper-slide-next {
+.good .good__slide:hover {
   -webkit-box-shadow: 20px 20px 40px 0px rgba(188, 224, 245, 0.7098039216);
   box-shadow: 20px 20px 40px 0px rgba(188, 224, 245, 0.7098039216);
 }
