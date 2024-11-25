@@ -688,9 +688,8 @@ button,
 }
 
 .header .language__dropdown .link-btn {
-  background: #fff !important;
-  color: #000 !important;
-  border: none !important;
+  background: #fff;
+  color: #000;
 }
 
 .main-nav__list {
@@ -1017,8 +1016,8 @@ html .--fw500 {
 }
 
 .link-btn:hover {
-  background: #45ade1 !important;
-  border-color: #45ade1 !important;
+  background: rgba(138, 206, 240, 0.5) !important;
+  border-color: rgba(138, 206, 240, 0.5) !important;
 }
 
 .page-h2 {
@@ -1083,63 +1082,6 @@ html .--fw500 {
   z-index: 10;
 }
 
-.new-title .new-title__video {
-  width: 100%;
-}
-
-.new-title .new-title__video.--tablet {
-  display: none;
-}
-
-.new-title .new-title__video.--mob {
-  display: none;
-}
-
-.new-about {
-  position: relative;
-  padding: 122px 0 118px;
-}
-
-.new-about .new-about__slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.new-about .new-about__slide img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.new-about .new-about__desc {
-  position: relative;
-  z-index: 10;
-  max-width: 730px;
-  width: 100%;
-}
-
-.new-about .new-about__header {
-  text-align: left;
-}
-
-.new-about .new-about__text {
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 180%;
-  letter-spacing: 0.4399999976px;
-  color: rgb(98, 98, 97);
-  margin: 0;
-}
-
-.new-about .new-about-nav {
-  margin-top: 97px;
-}
-
 body .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
@@ -1195,9 +1137,13 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .about {
-  padding: 50px 0 65px;
+  padding: 83px 0 71px;
   position: relative;
   z-index: 10;
+}
+
+.about .about__wrapper {
+  padding: 0 132px;
 }
 
 .about .about__text {
@@ -1210,6 +1156,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .about .about__benefits {
+  margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1478,16 +1425,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .new-title .new-title__video.--desc {
-    display: none;
-  }
-
-  .new-title .new-title__video.--tablet {
-    display: block;
-  }
-}
-
 @media screen and (max-width: 970px) {
   .footer .footer__text {
     font-size: 16px;
@@ -1567,14 +1504,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 16px;
     line-height: 90%;
     padding: 10px 25px;
-  }
-
-  .new-title .new-title__video.--tablet {
-    display: none;
-  }
-
-  .new-title .new-title__video.--mob {
-    display: block;
   }
 
   .title .title__text {
