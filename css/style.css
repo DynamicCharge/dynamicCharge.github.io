@@ -1437,14 +1437,6 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 32px;
   }
 
-  .new-about .new-about__text {
-    font-size: 20px;
-  }
-
-  .new-about .new-about__desc {
-    max-width: 430px;
-  }
-
   .good .good__wrapper {
     padding: 0;
   }
