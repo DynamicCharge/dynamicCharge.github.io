@@ -1095,6 +1095,21 @@ html .--fw500 {
   display: none;
 }
 
+.new-title .new-title__header {
+  position: absolute;
+  bottom: 104px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 71px;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  margin: 0 !important;
+}
+
 .new-about {
   position: relative;
   padding: 122px 0 118px;
@@ -1358,6 +1373,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   right: -135px;
 }
 
+.mob-text {
+  display: none;
+}
+
 @media screen and (max-width: 1461px) {
   .container {
     padding: 0 120px;
@@ -1473,16 +1492,16 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .good .good__slider-btn {
-    width: 25px;
-    height: 25px;
+    width: 47px;
+    height: 47px;
   }
 
   .good .good__slider-btn.--prev {
-    left: -45px;
+    left: -65px;
   }
 
   .good .good__slider-btn.--next {
-    right: -45px;
+    right: -65px;
   }
 }
 
@@ -1505,11 +1524,38 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     padding-bottom: 80px;
   }
 
+  .new-title .new-title__header {
+    font-size: 44px;
+    width: 100%;
+    bottom: 50px;
+  }
+
+  body .link-btn {
+    padding: 10px 19px;
+  }
+
+  .new-about .new-about__text {
+    font-size: 13px;
+  }
+
+  .new-about .new-about__desc {
+    width: 282px;
+  }
+
+  .new-about {
+    padding: 59px 0 57px;
+  }
+
+  body .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
   .about .about__benefits {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
   }
 
@@ -1548,11 +1594,11 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .good .good__slider-btn.--next {
-    right: -30px;
+    right: -50px;
   }
 
   .good .good__slider-btn.--prev {
-    left: -30px;
+    left: -50px;
   }
 
   body .swiper-pagination-bullet:not(:last-child) {
@@ -1625,6 +1671,118 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .header .header__nav-item:last-child {
     margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header .header__nav-item a {
+    padding: 0;
+    border: none;
+    font-size: 11px !important;
+  }
+
+  .header .language-btn {
+    padding: 0;
+    border: none;
+    font-size: 11px !important;
+  }
+
+  .header .header__nav-item:nth-child(1) {
+    width: auto;
+  }
+
+  span.mobile {
+    display: none;
+  }
+
+  .header .header__nav-item:last-child {
+    margin-left: inherit;
+  }
+
+  .new-title .new-title__header {
+    font-size: 17px;
+    line-height: 120%;
+    bottom: 26px;
+    margin-bottom: 0;
+  }
+
+  .new-about .new-about__header {
+    display: none;
+  }
+
+  .new-about .new-about__text {
+    display: none;
+  }
+
+  .new-about .new-about-nav {
+    margin-top: 0;
+  }
+
+  .new-about {
+    padding-top: 21px;
+    min-height: 190px;
+  }
+
+  .about__benefit:last-child {
+    display: none;
+  }
+
+  .about .about__benefits {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mob-text {
+    display: block;
+  }
+
+  .page-h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .about .about__text {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .about .about__benefit-desc {
+    font-size: 9px;
+  }
+
+  .good {
+    padding-top: 54px;
+  }
+
+  .good .good__slider-wrapper {
+    margin-top: 32px;
+  }
+
+  .good .good__slider-btn {
+    position: static;
+  }
+
+  .good .good__slider-btn:not(:last-child) {
+    margin-right: 19px;
+  }
+
+  .good__slider-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+  }
+
+  .good .good__slide {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
