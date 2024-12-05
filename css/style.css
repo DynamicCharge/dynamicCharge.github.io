@@ -1097,7 +1097,7 @@ html .--fw500 {
 
 .new-title .new-title__header {
   position: absolute;
-  bottom: 104px;
+  bottom: 204px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -1288,7 +1288,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .good .good__slider-wrapper {
-  margin-top: 90px;
+  margin-top: 40px;
   position: relative;
 }
 
@@ -1356,6 +1356,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   -webkit-box-shadow: 6px 11px 16px 0px rgba(188, 224, 245, 0.7098039216);
   box-shadow: 6px 11px 16px 0px rgba(188, 224, 245, 0.7098039216);
   border-radius: 50%;
+  z-index: 100;
 }
 
 .good .good__slider-btn {
@@ -1366,11 +1367,11 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   -webkit-transform: scale(-1, 1) translateY(-50%);
   -ms-transform: scale(-1, 1) translateY(-50%);
   transform: scale(-1, 1) translateY(-50%);
-  left: -135px;
+  left: -145px;
 }
 
 .good .good__slider-btn.--next {
-  right: -135px;
+  right: -145px;
 }
 
 .mob-text {
@@ -1454,6 +1455,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
   .page-h2 {
     font-size: 32px;
+  }
+
+  .new-title .new-title__header {
+    bottom: 104px;
   }
 
   .new-about .new-about__text {
@@ -1631,6 +1636,11 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     display: block;
   }
 
+  .good .good__slider-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .title .title__text {
     padding-left: 17px;
   }
@@ -1642,6 +1652,56 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   .title .title__logo {
     max-width: 300px;
     left: -84px;
+  }
+
+  .good .good__slide {
+    padding: 15px;
+  }
+
+  .good .good__slide-name {
+    font-size: 15px;
+  }
+
+  .good .good__slider-btn.--next {
+    right: -31px;
+  }
+
+  .good .good__slider-btn.--prev {
+    left: -31px;
+  }
+
+  .good .good__slide {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  .cloud {
+    max-width: 300px;
+  }
+
+  .cloud.--cloud-1 {
+    right: -300px;
+    top: -35px;
+  }
+
+  .cloud.--cloud-2 {
+    left: -250px;
+    top: 280px;
+  }
+
+  .cloud.--cloud-3 {
+    right: -340px;
+    top: 645px;
+  }
+
+  .cloud.--cloud-4 {
+    left: -100px;
+    top: 1055px;
+  }
+
+  .cloud.--cloud-5 {
+    right: -400px;
+    top: 1455px;
   }
 }
 
@@ -1675,6 +1735,15 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 @media screen and (max-width: 500px) {
+  .about {
+    padding: 20px 0;
+  }
+
+  .good .good__slider-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .header .header__nav-item a {
     padding: 0;
     border: none;
@@ -1750,6 +1819,10 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 9px;
   }
 
+  #good-first {
+    padding-top: 12px;
+  }
+
   .good {
     padding-top: 54px;
   }
@@ -1783,6 +1856,64 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   .good .good__slide {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about__benefit:last-child {
+    display: none;
+  }
+
+  .good .good__main-img {
+    width: 120vw;
+    margin-left: -20%;
+    border-radius: 0;
+  }
+
+  .footer .footer__logo {
+    margin-bottom: 70px;
+  }
+
+  .footer .footer__wrapper {
+    position: relative;
+  }
+
+  .footer__links {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .footer .footer__terms {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .footer__middle {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .header .header__nav-item .link-btn {
+    background: transparent;
+    color: #fff;
+  }
+
+  .header .language__dropdown {
+    margin: 0;
+    border-radius: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .header .language__dropdown .language__dropdown-inner {
+    padding: 10px 2px 2px;
   }
 }
 
