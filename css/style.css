@@ -1274,7 +1274,7 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .good:last-child {
-  padding-bottom: 90px;
+  padding-bottom: 40px;
 }
 
 .good .good__wrapper {
@@ -1810,8 +1810,8 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .new-about .new-about__slide img {
-    -o-object-position: -150px 0;
-    object-position: -150px 0;
+    -o-object-position: -75px 0;
+    object-position: -75px 0;
   }
 
   .about__benefit:last-child {
@@ -1942,7 +1942,15 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .good .good__slide {
-    min-height: 432px;
+    padding-top: 0;
+  }
+
+  .good .good__slide.--mini {
+    padding-top: 0;
+  }
+
+  .cloud.--cloud-1 {
+    display: none !important;
   }
 }
 
