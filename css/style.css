@@ -1131,6 +1131,10 @@ html .--fw500 {
   object-fit: cover;
 }
 
+.new-about .new-about__slide img.--mob {
+  display: none;
+}
+
 .new-about .new-about__desc {
   position: relative;
   z-index: 10;
@@ -1217,11 +1221,11 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about .about__text {
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.4399999976px;
   text-align: center;
-  color: #424242;
+  color: #626261;
 }
 
 .about .about__benefits {
@@ -1810,8 +1814,11 @@ body .swiper-pagination-bullet.swiper-pagination-bullet-active {
   }
 
   .new-about .new-about__slide img {
-    -o-object-position: -75px 0;
-    object-position: -75px 0;
+    display: none;
+  }
+
+  .new-about .new-about__slide img.--mob {
+    display: block;
   }
 
   .about__benefit:last-child {
